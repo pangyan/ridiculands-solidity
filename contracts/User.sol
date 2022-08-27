@@ -47,4 +47,8 @@ contract User {
     function getNumber() external pure returns (uint256) {
         return 5 * 5;
     }
+
+    function getMyNumber() external view returns (uint256) {
+        return myNumber;
+    }
 }
